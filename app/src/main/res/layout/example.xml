@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailedActivity">
+
+    <ImageView
+        android:id="@+id/newImage"
+        android:layout_width="330dp"
+        android:layout_height="245dp"
+        android:layout_gravity="center"
+        android:src="@drawable/one"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/newText"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Тут має бути текст переданий putExtra"
+        android:textSize="50sp"
+        android:layout_marginTop="25dp"/>
+
+
+</LinearLayout>
